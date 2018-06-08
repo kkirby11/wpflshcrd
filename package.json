@@ -1,0 +1,32 @@
+{
+  "name": "es6flashcards",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kkirby11/wpflshcrd.git"
+  },
+  "author": "kristina kirby <kristinakirby@mac.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kkirby11/wpflshcrd/issues"
+  },
+  "homepage": "https://github.com/kkirby11/wpflshcrd#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "description": "",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-latest": "^6.24.1",
+    "webpack": "^4.11.1",
+    "webpack-cli": "^3.0.3",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "dependencies": {
+    "lodash": "^4.17.10"
+  }
+}
