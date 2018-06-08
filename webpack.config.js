@@ -18,7 +18,7 @@ module.exports = config;
 var path = require('path');
 
 module.exports = {
-    mode: 'development'
+    mode: 'development',
     entry: './app/index.js',
     output: {
     filename: 'bundle.js',
